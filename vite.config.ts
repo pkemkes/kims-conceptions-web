@@ -17,4 +17,5 @@ export default defineConfig({
 		setupFiles: "src/setupTests",
 		mockReset: true,
 	},
+	assetsInclude: ['**/*.png'], // Ensure PNG files are included as assets
 });
