@@ -1,0 +1,46 @@
+{
+	"name": "the-gist-of-it-sec",
+	"private": true,
+	"version": "0.1.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"start": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"test": "vitest",
+		"format": "prettier --write .",
+		"lint": "eslint .",
+		"type-check": "tsc",
+		"prettify": "prettier --write ."
+	},
+	"dependencies": {
+		"@emotion/react": "11.14.0",
+		"@emotion/styled": "11.14.0",
+		"@mui/icons-material": "7.0.1",
+		"@mui/material": "7.0.1",
+		"@reduxjs/toolkit": "2.6.1",
+		"@types/react": "19.1.0",
+		"@types/react-dom": "19.1.1",
+		"@vitejs/plugin-react": "4.3.4",
+		"pnpm": "10.7.1",
+		"prettier-config-a11y": "^1.1.2",
+		"react": "19.1.0",
+		"react-dom": "19.1.0",
+		"react-redux": "9.2.0",
+		"react-router": "7.5.0",
+		"typescript": "5.8.3",
+		"vite": "6.2.5",
+		"vitest": "3.1.1"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "8.29.0",
+		"@typescript-eslint/parser": "8.29.0",
+		"eslint": "9.24.0",
+		"eslint-config-prettier": "10.1.1",
+		"jsdom": "26.0.0",
+		"prettier": "3.5.3",
+		"typescript-eslint": "8.29.0"
+	},
+	"prettier": "prettier-config-a11y"
+}
