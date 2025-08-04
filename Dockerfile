@@ -1,8 +1,8 @@
-FROM node:22-alpine3.20 AS build
+FROM node:22-alpine AS build
 
 WORKDIR /app
 
-RUN npm install -g pnpm http-server
+RUN npm install -g pnpm@10.14.0 http-server
 
 COPY . .
 
